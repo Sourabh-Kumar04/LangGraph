@@ -15,8 +15,8 @@ graph TD
     A[Traditional AI]:::fade -->|Finds patterns| B[Predictions]
     C[Generative AI]:::highlight -->|Learns distribution| D[Generates new samples]
 
-    classDef fade fill=#eef,stroke=#888,stroke-dasharray: 5 5;
-    classDef highlight fill=#ffedcc,stroke=#f39c12,stroke-width=2px;
+    %%classDef fade fill=#eef,stroke=#888,stroke-dasharray: 5 5;
+    %%classDef highlight fill=#ffedcc,stroke=#f39c12,stroke-width=2px;
 ````
 
 > **Insight:** Generative AI’s unique strength lies in its ability to **mimic human creativity**.
@@ -41,9 +41,9 @@ flowchart LR
     Interview --> Offer[📑 Offer Letter]
     Offer --> Onboard[🚀 Onboarding]
 
-    classDef highlight fill=#dff0d8,stroke=#27ae60,stroke-width=2px;
-    click JD "https://example.com/jd-template" "View JD Template"
-    click Post "https://linkedin.com" "Post on LinkedIn"
+    %%classDef highlight fill=#dff0d8,troke=#27ae60,stroke-width=2px;
+    %%click JD "https://example.com/jd-template" %%"View JD Template"
+    %%click Post "https://linkedin.com" "Post on LinkedIn"
 ```
 
 ---
@@ -101,7 +101,7 @@ graph TD
     Data --> JD2[High-Performing JD Drafts]
     Data --> Shortlist2[Specific Shortlisting Criteria]
 
-    classDef highlight fill=#fce5cd,stroke=#e67e22,stroke-width=2px;
+    %%classDef highlight fill=#fce5cd,stroke=#e67e22,stroke-width=2px;
 ```
 
 ---
@@ -131,7 +131,7 @@ flowchart TB
     T --> Parse[Resume Parsing Tool]
     T --> Schedule[Interview Scheduling via Calendar/Mail API]
 
-    classDef highlight fill=#d9edf7,stroke=#2980b9,stroke-width=2px;
+    %%classDef highlight fill=#d9edf7,stroke=#2980b9,stroke-width=2px;
 ```
 
 ---
@@ -160,7 +160,7 @@ graph TD
     Execute --> Monitor[📊 Monitor & Adjust Strategy]
     Monitor --> Offer4[📑 Offer & Onboarding]
 
-    classDef highlight fill=#e2f0d9,stroke=#27ae60,stroke-width=2px;
+    %%classDef highlight fill=#e2f0d9,stroke=#27ae60,stroke-width=2px;
 ```
 
 ---
@@ -173,8 +173,8 @@ graph LR
     A[Agentic AI]:::highlight -->|Solves Goals| Goals[Hiring, Automation, Planning]
     G -->|Foundation| A
 
-    classDef fade fill=#eef,stroke=#888,stroke-dasharray: 5 5;
-    classDef highlight fill=#f9e79f,stroke=#f1c40f,stroke-width=2px;
+    %%classDef fade fill=#eef,stroke=#888,stroke-dasharray: 5 5;
+    %%classDef highlight fill=#f9e79f,stroke=#f1c40f,stroke-width=2px;
 ```
 
 * **Generative AI** → Creates new content.
