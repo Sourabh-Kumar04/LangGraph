@@ -247,46 +247,46 @@ Goal Definition → Strategic Planning → Execution → Monitoring → Adaptati
 
 ```mermaid
 graph TB
-    A[Human Sets Goal: 'Hire Backend Engineer'] --> B[AI Strategic Planning]
+    A["Human Sets Goal: 'Hire Backend Engineer' "] --> B["AI Strategic Planning"]
     
-    B --> C[Create Multi-Step Plan]
-    C --> D[Draft Job Description]
-    C --> E[Identify Posting Channels]
-    C --> F[Define Success Metrics]
+    B --> C["Create Multi-Step Plan"]
+    C --> D["Draft Job Description"]
+    C --> E["Identify Posting Channels"]
+    C --> F["Define Success Metrics"]
     
-    D --> G[Review Company Templates]
-    G --> H[Analyze Market Trends]
-    H --> I[Generate Compelling JD]
-    I --> J{HR Approval?}
+    D --> G["Review Company Templates"]
+    G --> H["Analyze Market Trends"]
+    H --> I["Generate Compelling JD"]
+    I --> J{"HR Approval?"}
     
-    J -->|Yes| K[Post Across Multiple Platforms]
-    J -->|No| L[Revise Based on Feedback]
+    J -->|Yes| K["Post Across Multiple Platforms"]
+    J -->|No| L["Revise Based on Feedback"]
     L --> I
     
-    K --> M[Monitor Application Flow]
-    M --> N{Sufficient Applications?}
+    K --> M["Monitor Application Flow"]
+    M --> N{"Sufficient Applications?"}
     
-    N -->|Yes| O[Screen & Rank Candidates]
-    N -->|No| P[Adapt Strategy]
+    N -->|Yes| O["Screen & Rank Candidates]"
+    N -->|No| P["Adapt Strategy"]
     
-    P --> Q[Expand Job Scope]
-    P --> R[Launch Targeted Ads]
-    P --> S[Activate Referral Program]
+    P --> Q["Expand Job Scope"]
+    P --> R["Launch Targeted Ads"]
+    P --> S["Activate Referral Program"]
     
     Q --> M
     R --> M
     S --> M
     
-    O --> T[Generate Shortlist]
-    T --> U[Schedule Interviews]
-    U --> V[Provide Interview Prep]
+    O --> T["Generate Shortlist"]
+    T --> U["Schedule Interviews"]
+    U --> V["Provide Interview Prep"]
     
-    V --> W[Conduct Interview Process]
-    W --> X[Generate Offers]
-    X --> Y[Handle Negotiations]
+    V --> W["Conduct Interview Process"]
+    W --> X["Generate Offers"]
+    X --> Y["Handle Negotiations"]
     
-    Y --> Z[Successful Hire]
-    Z --> AA[Begin Onboarding]
+    Y --> Z["Successful Hire"]
+    Z --> AA["Begin Onboarding"]
     
     style A fill:#e1f5fe
     style Z fill:#e8f5e8
@@ -300,50 +300,51 @@ title: "Agentic AI Recruitment Workflow"
 graph TB
     A[Human Sets Goal: 'Hire Backend Engineer'] --> B[AI Strategic Planning]
     
-    B --> C[Create Multi-Step Plan]
-    C --> D[Draft Job Description]
-    C --> E[Identify Posting Channels]
-    C --> F[Define Success Metrics]
+    B --> C["Create Multi-Step Plan"]
+    C --> D["Draft Job Description"]
+    C --> E["Identify Posting Channels"]
+    C --> F["Define Success Metrics"]
     
-    D --> G[Review Company Templates]
-    G --> H[Analyze Market Trends]
-    H --> I[Generate Compelling JD]
-    I --> J{HR Approval?}
+    D --> G["Review Company Templates"]
+    G --> H["Analyze Market Trends"]
+    H --> I["Generate Compelling JD"]
+    I --> J{"HR Approval?"}
     
-    J -->|Yes| K[Post Across Multiple Platforms]
-    J -->|No| L[Revise Based on Feedback]
+    J -->|Yes| K["Post Across Multiple Platforms"]
+    J -->|No| L["Revise Based on Feedback"]
     L --> I
     
-    K --> M[Monitor Application Flow]
-    M --> N{Sufficient Applications?}
+    K --> M["Monitor Application Flow"]
+    M --> N{"Sufficient Applications?"}
+  
+    N -->|Yes| O["Screen & Rank Candidates"]
+    N -->|No| P["Adapt Strategy"]
     
-    N -->|Yes| O[Screen & Rank Candidates]
-    N -->|No| P[Adapt Strategy]
-    
-    P --> Q[Expand Job Scope]
-    P --> R[Launch Targeted Ads]
-    P --> S[Activate Referral Program]
+    P --> Q["Expand Job Scope"]
+    P --> R["Launch Targeted Ads"]
+    P --> S["Activate Referral Program"]
     
     Q --> M
     R --> M
     S --> M
     
-    O --> T[Generate Shortlist]
-    T --> U[Schedule Interviews]
-    U --> V[Provide Interview Prep]
+    O --> T["Generate Shortlist"]
+    T --> U["Schedule Interviews"]
+    U --> V["Provide Interview Prep"]
     
-    V --> W[Conduct Interview Process]
-    W --> X[Generate Offers]
-    X --> Y[Handle Negotiations]
+    V --> W["Conduct Interview Process"]
+    W --> X["Generate Offers"]
+    X --> Y["Handle Negotiations"]
     
-    Y --> Z[Successful Hire]
-    Z --> AA[Begin Onboarding]
+    Y --> Z["Successful Hire"]
+    Z --> AA["Begin Onboarding"]
     
     style A fill:#e1f5fe
     style Z fill:#e8f5e8
     style J fill:#fff3e0
     style N fill:#fff3e0
-
+```
+```
 ---
 title: "Six Core Characteristics of Agentic AI"
 ---
