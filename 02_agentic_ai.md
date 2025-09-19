@@ -245,6 +245,7 @@ Goal Definition → Strategic Planning → Execution → Monitoring → Adaptati
 *This represents a fundamental shift in how we interact with AI systems - from reactive assistants to proactive digital colleagues.*
 ---
 
+```mermaid
 graph TB
     A[Human Sets Goal: 'Hire Backend Engineer'] --> B[AI Strategic Planning]
     
