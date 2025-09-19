@@ -245,11 +245,12 @@ Goal Definition → Strategic Planning → Execution → Monitoring → Adaptati
 *This represents a fundamental shift in how we interact with AI systems - from reactive assistants to proactive digital colleagues.*
 ---
 
+
 # Agentic AI Recruitment Workflow
 
 ```mermaid
 graph TB
-    A["Human Sets Goal: 'Hire Backend Engineer' "] --> B["AI Strategic Planning"]
+    A["Human Sets Goal: 'Hire Backend Engineer'"] --> B["AI Strategic Planning"]
     
     B --> C["Create Multi-Step Plan"]
     C --> D["Draft Job Description"]
@@ -261,15 +262,15 @@ graph TB
     H --> I["Generate Compelling JD"]
     I --> J{"HR Approval?"}
     
-    J -->|Yes| K["Post Across Multiple Platforms"]
-    J -->|No| L["Revise Based on Feedback"]
+    J -->|"Yes"| K["Post Across Multiple Platforms"]
+    J -->|"No"| L["Revise Based on Feedback"]
     L --> I
     
     K --> M["Monitor Application Flow"]
     M --> N{"Sufficient Applications?"}
-  
-    N -->|Yes| O["Screen & Rank Candidates"]
-    N -->|No| P["Adapt Strategy"]
+    
+    N -->|"Yes"| O["Screen & Rank Candidates"]
+    N -->|"No"| P["Adapt Strategy"]
     
     P --> Q["Expand Job Scope"]
     P --> R["Launch Targeted Ads"]
@@ -294,7 +295,7 @@ graph TB
     style Z fill:#e8f5e8
     style J fill:#fff3e0
     style N fill:#fff3e0
-````
+```
 
 ---
 
@@ -302,37 +303,37 @@ graph TB
 
 ```mermaid
 mindmap
-  root((Agentic AI Core Traits))
-    Autonomy
-      Acts Independently
-      Minimal Human Oversight
-      Approval Checkpoints
-      Reduces Manual Work
-    Goal-Oriented
-      Persistent Objectives
-      All Actions Serve Goal
-      No Distraction
-      Works Until Success
-    Planning
-      Strategic Thinking
-      Multi-Step Breakdown
-      Backup Strategies
-      Dynamic Re-planning
-    Reasoning
-      Logical Decision Making
-      Trade-off Analysis
-      Evidence-Based Choices
-      Multi-Factor Weighting
-    Adaptability
-      Responds to Changes
-      Strategy Pivoting
-      Continuous Learning
-      Environmental Awareness
-    Context Awareness
-      Persistent Memory
-      Company Culture Understanding
-      Real-time Data Integration
-      Historical Pattern Recognition
+  root(("Agentic AI Core Traits"))
+    ("Autonomy")
+      ("Acts Independently")
+      ("Minimal Human Oversight")
+      ("Approval Checkpoints")
+      ("Reduces Manual Work")
+    ("Goal-Oriented")
+      ("Persistent Objectives")
+      ("All Actions Serve Goal")
+      ("No Distraction")
+      ("Works Until Success")
+    ("Planning")
+      ("Strategic Thinking")
+      ("Multi-Step Breakdown")
+      ("Backup Strategies")
+      ("Dynamic Re-planning")
+    ("Reasoning")
+      ("Logical Decision Making")
+      ("Trade-off Analysis")
+      ("Evidence-Based Choices")
+      ("Multi-Factor Weighting")
+    ("Adaptability")
+      ("Responds to Changes")
+      ("Strategy Pivoting")
+      ("Continuous Learning")
+      ("Environmental Awareness")
+    ("Context Awareness")
+      ("Persistent Memory")
+      ("Company Culture Understanding")
+      ("Real-time Data Integration")
+      ("Historical Pattern Recognition")
 ```
 
 ---
@@ -341,22 +342,22 @@ mindmap
 
 ```mermaid
 graph LR
-    subgraph GenAI [Generative AI Approach]
-        A1[User Query] --> B1[AI Response]
-        B1 --> C1[User Next Query]
-        C1 --> D1[AI Response]
-        D1 --> E1[Manual Coordination]
-        E1 --> F1[Repeat Process]
+    subgraph GenAI ["Generative AI Approach"]
+        A1["User Query"] --> B1["AI Response"]
+        B1 --> C1["User Next Query"]
+        C1 --> D1["AI Response"]
+        D1 --> E1["Manual Coordination"]
+        E1 --> F1["Repeat Process"]
     end
     
-    subgraph AgentAI [Agentic AI Approach]
-        A2[Goal Declaration] --> B2[AI Planning]
-        B2 --> C2[Autonomous Execution]
-        C2 --> D2[Continuous Monitoring]
-        D2 --> E2{Goal Achieved?}
-        E2 -->|No| F2[Adapt Strategy]
+    subgraph AgentAI ["Agentic AI Approach"]
+        A2["Goal Declaration"] --> B2["AI Planning"]
+        B2 --> C2["Autonomous Execution"]
+        C2 --> D2["Continuous Monitoring"]
+        D2 --> E2{"Goal Achieved?"}
+        E2 -->|"No"| F2["Adapt Strategy"]
         F2 --> C2
-        E2 -->|Yes| G2[Mission Complete]
+        E2 -->|"Yes"| G2["Mission Complete"]
     end
     
     style GenAI fill:#ffe6e6
@@ -371,23 +372,23 @@ graph LR
 
 ```mermaid
 graph TD
-    A[Goal Definition] --> B[Strategic Planning]
-    B --> C[Execution Phase]
-    C --> D[Monitoring & Tracking]
-    D --> E[Performance Analysis]
-    E --> F{Goal Achieved?}
+    A["Goal Definition"] --> B["Strategic Planning"]
+    B --> C["Execution Phase"]
+    C --> D["Monitoring & Tracking"]
+    D --> E["Performance Analysis"]
+    E --> F{"Goal Achieved?"}
     
-    F -->|Yes| G[Success! 🎉]
-    F -->|No| H[Strategy Adaptation]
+    F -->|"Yes"| G["Success! 🎉"]
+    F -->|"No"| H["Strategy Adaptation"]
     
-    H --> I[Identify Issues]
-    I --> J[Generate Alternatives]
-    J --> K[Select Best Option]
+    H --> I["Identify Issues"]
+    I --> J["Generate Alternatives"]
+    J --> K["Select Best Option"]
     K --> B
     
-    D --> L[Real-time Feedback]
-    L --> M[Context Updates]
-    M --> N[Environmental Changes]
+    D --> L["Real-time Feedback"]
+    L --> M["Context Updates"]
+    M --> N["Environmental Changes"]
     N --> H
     
     style A fill:#e3f2fd
@@ -402,32 +403,32 @@ graph TD
 
 ```mermaid
 graph TD
-    subgraph Traditional [Traditional AI Interaction]
-        T1[How to get to Goa?] --> T2[Flight/Train options...]
-        T3[Book me a flight] --> T4[Try these websites...]
-        T5[Recommend hotels] --> T6[Here are options...]
-        T7[Create itinerary] --> T8[Sample 3-day plan...]
+    subgraph Traditional ["Traditional AI Interaction"]
+        T1["How to get to Goa?"] --> T2["Flight/Train options..."]
+        T3["Book me a flight"] --> T4["Try these websites..."]
+        T5["Recommend hotels"] --> T6["Here are options..."]
+        T7["Create itinerary"] --> T8["Sample 3-day plan..."]
         
-        T9[Human does all coordination]
+        T9["Human does all coordination"]
         T2 --> T9
         T4 --> T9
         T6 --> T9
         T8 --> T9
     end
     
-    subgraph Agentic [Agentic AI Approach]
-        A1[Plan my Goa trip March 15-20] --> A2[AI analyzes requirements]
-        A2 --> A3[Multi-step planning]
-        A3 --> A4[Flight research & booking]
-        A3 --> A5[Hotel comparison & booking]
-        A3 --> A6[Itinerary creation]
-        A3 --> A7[Activity reservations]
+    subgraph Agentic ["Agentic AI Approach"]
+        A1["Plan my Goa trip March 15-20"] --> A2["AI analyzes requirements"]
+        A2 --> A3["Multi-step planning"]
+        A3 --> A4["Flight research & booking"]
+        A3 --> A5["Hotel comparison & booking"]
+        A3 --> A6["Itinerary creation"]
+        A3 --> A7["Activity reservations"]
         
-        A4 --> A8[Integrated trip package]
+        A4 --> A8["Integrated trip package"]
         A5 --> A8
         A6 --> A8
         A7 --> A8
-        A8 --> A9[Ready for approval]
+        A8 --> A9["Ready for approval"]
     end
     
     style Traditional fill:#ffe6e6
