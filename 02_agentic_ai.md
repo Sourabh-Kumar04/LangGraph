@@ -245,60 +245,11 @@ Goal Definition → Strategic Planning → Execution → Monitoring → Adaptati
 *This represents a fundamental shift in how we interact with AI systems - from reactive assistants to proactive digital colleagues.*
 ---
 
+# Agentic AI Recruitment Workflow
+
 ```mermaid
 graph TB
     A["Human Sets Goal: 'Hire Backend Engineer' "] --> B["AI Strategic Planning"]
-    
-    B --> C["Create Multi-Step Plan"]
-    C --> D["Draft Job Description"]
-    C --> E["Identify Posting Channels"]
-    C --> F["Define Success Metrics"]
-    
-    D --> G["Review Company Templates"]
-    G --> H["Analyze Market Trends"]
-    H --> I["Generate Compelling JD"]
-    I --> J{"HR Approval?"}
-    
-    J -->|Yes| K["Post Across Multiple Platforms"]
-    J -->|No| L["Revise Based on Feedback"]
-    L --> I
-    
-    K --> M["Monitor Application Flow"]
-    M --> N{"Sufficient Applications?"}
-    
-    N -->|Yes| O["Screen & Rank Candidates]"
-    N -->|No| P["Adapt Strategy"]
-    
-    P --> Q["Expand Job Scope"]
-    P --> R["Launch Targeted Ads"]
-    P --> S["Activate Referral Program"]
-    
-    Q --> M
-    R --> M
-    S --> M
-    
-    O --> T["Generate Shortlist"]
-    T --> U["Schedule Interviews"]
-    U --> V["Provide Interview Prep"]
-    
-    V --> W["Conduct Interview Process"]
-    W --> X["Generate Offers"]
-    X --> Y["Handle Negotiations"]
-    
-    Y --> Z["Successful Hire"]
-    Z --> AA["Begin Onboarding"]
-    
-    style A fill:#e1f5fe
-    style Z fill:#e8f5e8
-    style J fill:#fff3e0
-    style N fill:#fff3e0
-```
-
----
-title: "Agentic AI Recruitment Workflow"
----
-graph TB
-    A[Human Sets Goal: 'Hire Backend Engineer'] --> B[AI Strategic Planning]
     
     B --> C["Create Multi-Step Plan"]
     C --> D["Draft Job Description"]
@@ -343,11 +294,13 @@ graph TB
     style Z fill:#e8f5e8
     style J fill:#fff3e0
     style N fill:#fff3e0
-```
-```
+````
+
 ---
-title: "Six Core Characteristics of Agentic AI"
----
+
+# Six Core Characteristics of Agentic AI
+
+```mermaid
 mindmap
   root((Agentic AI Core Traits))
     Autonomy
@@ -380,10 +333,13 @@ mindmap
       Company Culture Understanding
       Real-time Data Integration
       Historical Pattern Recognition
+```
 
 ---
-title: "Generative AI vs Agentic AI Comparison"
----
+
+# Generative AI vs Agentic AI
+
+```mermaid
 graph LR
     subgraph GenAI [Generative AI Approach]
         A1[User Query] --> B1[AI Response]
@@ -407,10 +363,13 @@ graph LR
     style AgentAI fill:#e6ffe6
     style E1 fill:#ffcccc
     style G2 fill:#ccffcc
+```
 
 ---
-title: "Agentic AI Workflow Cycle"
----
+
+# Agentic AI Workflow Cycle
+
+```mermaid
 graph TD
     A[Goal Definition] --> B[Strategic Planning]
     B --> C[Execution Phase]
@@ -435,10 +394,13 @@ graph TD
     style G fill:#e8f5e8
     style F fill:#fff3e0
     style H fill:#fce4ec
+```
 
 ---
-title: "Travel Planning: Traditional vs Agentic AI"
----
+
+# Travel Planning: Traditional vs Agentic AI
+
+```mermaid
 graph TD
     subgraph Traditional [Traditional AI Interaction]
         T1[How to get to Goa?] --> T2[Flight/Train options...]
@@ -473,3 +435,5 @@ graph TD
     style T9 fill:#ffcccc
     style A9 fill:#ccffcc
 ```
+
+---
